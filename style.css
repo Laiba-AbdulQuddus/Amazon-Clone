@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width: 100%;
+}
+/**Border**/
+.border1{
+    border: 1.5px solid transparent;
+    cursor: pointer;
+    height: 50px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border1:hover{
+    border: 1.5px solid white;
+}
+.border2{
+    border: 1.5px solid transparent;
+    cursor: pointer;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+.border2:hover{
+    border: 1.5px solid white;
+}
+/**Address**/
+.nav-address{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+}
+.deliver{
+    font-size: 0.85rem;
+    color: #cccccc;
+}
+.country{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.location{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+/*Search Bar */
+.nav-searchbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(245, 183, 67);
+    margin: 10px;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    
+}
+.search-select{
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.search-input{
+     width: 100%;
+     border: none;
+     font-size: 1rem;
+}
+.search-icon{
+width: 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.2rem;
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+color: #0f1111;
+}
+/**Language**/
+.nav-language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.language-logo{
+    margin-top: 2px;
+}
+.language-select{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+option{
+    color: black;
+}
+/**Sign in**/
+.nav-signin, .nav-orders{
+    display: flex;
+    flex-direction: column;
+}
+.signin-text, .orders-return{
+    margin-left: 3px;
+font-size: 0.7rem;
+}
+.signin-select {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+/**Order**/
+
+.orders-order{
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+/**Cart**/
+.nav-cart{
+display: flex;
+gap: 5px;
+justify-content: center;
+align-items: center;
+}
+.cart-text{
+    font-size: 0.8rem;
+    font-weight: 600;
+ 
+}
+.cart-icon{
+    font-size: 1.5rem;
+}
+/**Panel**/
+.panel{
+    background-color: rgb(37, 42, 53);
+    height: 35px;
+    color: white;
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 100px;
+}
+.panel-left{
+    display: flex;
+}
+.panel-left ul{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+    font-size: 0.8rem;
+}
+.panel-left ul li{
+    list-style: none;
+    cursor: pointer;
+}
+.panel-left a{
+    text-decoration: none;
+    color: white;
+}
+.panel-all{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+/**Hero Section**/
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-message{
+    background-color: white;
+    text-align: center;
+    font-size: 0.85rem;
+    font-weight: 300;
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.hero-message a{
+     text-decoration: none;
+     color: #007185;  
+}
+/**Hero Section**/
+.shop-section-1, .shop-section-2{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    margin-bottom: 50px;
+}
+.box h2{
+    margin: 15px;
+}
+.shop-section p{
+    margin-top: 30px;
+    margin: 20px;
+}
+
+.shop-section img{
+    margin: 5px;
+}
+.single-image img{
+    margin-left: 20px;
+}
+.box5 p{
+    margin: 10px;
+margin-top: 3px;
+}
+/*footer*/
+.foot-panel1{
+    background-color: #36495f;
+    color: white;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.foot-panel1 a{
+    color: white;
+    text-decoration: none;
+}
+.foot-panel1:hover{
+    background-color: #556272;
+}
+.foot-panel2{
+    background-color: #011a31ee;
+    color: white;
+    height: 500px;
+}
+.panel2-top{
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+ .panel2-top ul{
+    margin-top: 50px;
+    list-style: none;
+    width: 17%;
+    font-size: 0.85rem;
+}
+ .panel2-top ul h2{
+    margin: 10px;
+    font-size: 1rem;
+}
+.panel2-top ul li {
+    margin: 10px;
+}
+footer a{
+    color: rgb(214, 212, 212);
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.separator{
+    border: 1px solid rgb(85, 85, 85);
+    margin-top: 80px;
+    
+}
+.footer-logo{
+    margin-right: 70px;
+    margin-top: 10px;
+}
+ .footer-currency, .footer-country{
+    border: 2px solid rgb(85, 85, 85);
+    padding: 8px;
+    color: rgb(199, 194, 194);
+   border-radius: 4px;
+   cursor: pointer;
+}
+.footer-language{
+    border: 2px solid rgb(85, 85, 85);
+    padding: 8px;
+    color: rgb(199, 194, 194);
+    border-left: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+.footer-currency{
+    width: 160px;
+margin-left: 10px;
+}
+.footer-country {
+    width: 130px;
+    margin-left: 10px;
+}
+.panel2-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 0.85rem;
+}
+.foot-icon{
+    border: 2px solid rgb(85, 85, 85);
+    padding: 8px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-right:none;
+    font-size: 0.75rem;
+
+}
